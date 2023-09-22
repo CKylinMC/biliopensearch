@@ -1,0 +1,20 @@
+{
+  "name": "biliopensearch",
+  "version": "1.0.0",
+  "description": "Opensearch for bilibili",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bilibili",
+    "opensearch"
+  ],
+  "author": "CKylinMC",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "axios": "^1.5.0",
+    "koa": "^2.14.2"
+  }
+}
